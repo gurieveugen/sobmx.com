@@ -24,6 +24,9 @@
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/PIE.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/init-pie.js"></script>
 	<![endif]-->
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 	<?php /* ?>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/fancybox/jquery.fancybox-1.3.4.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
