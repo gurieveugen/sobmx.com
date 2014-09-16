@@ -58,8 +58,8 @@
 <?php wp_footer(); ?>
 		<script type="text/javascript">
 		jQuery(document).ready(function() {
-			jQuery(".coming-soon a").fancybox({ 'showCloseButton' : false, 'titlePosition' : 'inside', 'titleFormat' : formatTitle, 'href': '#coming-soon' });			
-			jQuery("a.coming-soon").fancybox({ 'showCloseButton' : false, 'titlePosition' : 'inside', 'titleFormat' : formatTitle, 'href': '#coming-soon' });			
+			// jQuery(".coming-soon a").fancybox({ 'showCloseButton' : false, 'titlePosition' : 'inside', 'titleFormat' : formatTitle, 'href': '#coming-soon' });			
+			// jQuery("a.coming-soon").fancybox({ 'showCloseButton' : false, 'titlePosition' : 'inside', 'titleFormat' : formatTitle, 'href': '#coming-soon' });			
 		});
 		function formatTitle(title, currentArray, currentIndex, currentOpts) {
 			return '<div id="lightbox-style-title"><span><a href="javascript:;" onclick="jQuery.fancybox.close();"><img src="<?php bloginfo('template_url'); ?>/images/closelabel.gif" /></a></span><br><br></div>';
