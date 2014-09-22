@@ -4845,13 +4845,12 @@ div.widget_widget_instagram_hastag img
 	float: right;
 	margin: 0 0 35px !important;
 	background: url(images/bg-filter.jpg) repeat-x;
-	overflow: hidden;
 }
 .gg_filter a{
 	float: left;
 	position: relative;
 	padding: 0 20px !important;
-	margin: 0 0 0 -1px !important;
+	margin: 0 !important;
 	height: 36px !important;
 	color: #fff !important;
 	text-decoration: none;
@@ -4871,6 +4870,18 @@ div.widget_widget_instagram_hastag img
 	left: -1px;
 	top: 10px;
 	bottom: 10px;
+}
+.gg_filter a:first-child:before{
+	content: '';
+	display: inline-block;
+	vertical-align: top;
+	background: url(images/ico-all.png) no-repeat;
+	width: 12px;
+	height: 12px;
+	margin:12px 5px 0 0;
+}
+.gg_filter a:first-child:after{
+	display: none;
 }
 div.gg_filter a.ggf.gg_cats_selected,
 div.gg_filter a.ggf.gg_cats_selected:hover,
