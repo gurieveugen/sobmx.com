@@ -12,7 +12,7 @@
 			</div>
 			<a href="http://sobmx.com/registration/" class="btn-registration">registration</a>
 			<a href="http://sobmx.com/schedule-events/" class="btn-shedule">shedule</a>
-			<a href="/media-develop-2/#gg_cg_1450" class="btn-gallery">gallery</a>
-			<a href="http://instagram.com/sobmx" class="btn-instagram">instagram</a>
+			<a href="/media-develop-2/" class="btn-gallery">gallery</a>
+			<a href="/videos" class="btn-youtube">videos</a>
 		</div>
 	</div>
