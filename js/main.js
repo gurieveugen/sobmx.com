@@ -1,12 +1,3 @@
-jQuery(document).load(function(){
-	jQuery('.ggf').each(function(){
-		if(jQuery(this).attr('rel') == '85') 
-		{ 
-			jQuery(this).trigger('click');
-		}
-	});
-});
-
 jQuery(document).ready(function(){
 	jQuery('.three-cols').autocolumnlist({columns: 3});
 	
@@ -62,7 +53,7 @@ jQuery("#mycarousel").jcarousel({
 	jQuery('.ggf').each(function(){
 		if(jQuery(this).attr('rel') == '*')
 		{
-			jQuery(this).hide();	
+			jQuery(this).text('View all');	
 		} 
 	});
 });
